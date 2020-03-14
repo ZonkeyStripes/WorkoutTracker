@@ -18,3 +18,4 @@ app.listen(port, () => {
 });
 
 require("./routes/html_routes.js")(app);
+require("./routes/api_routes.js")(app);
